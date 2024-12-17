@@ -1,0 +1,1 @@
+This example demonstrates a potential issue with mutable variables in F# when combined with function calls. The `add` function uses the values of `x` and `y` at the time it's defined, not the values at the time it's called, leading to unexpected results.  The solution shows how to avoid this issue.
